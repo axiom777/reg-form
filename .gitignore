@@ -17,7 +17,20 @@
 .env.development.local
 .env.test.local
 .env.production.local
+*lock.*
+*lock
 
+*.swp
+*.swo
+*.swn
+tags
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*.log
+.eslintcache
+
+tags
+
+/docker/maria/mysql/
